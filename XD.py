@@ -8,7 +8,7 @@ import requests
 os.system('git pull')
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from fuck import ssbbuy
+    from T_crack import ssbbuy
     ssbbuy()
 elif bit == '32bit':
     from SSB32 import ssbbuy
